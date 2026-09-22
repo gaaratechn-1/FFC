@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1001 /* FFXCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2001 /* FFXCApp.swift */; };
+		1002 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2002 /* RootView.swift */; };
+		1003 /* AppLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2003 /* AppLog.swift */; };
+		1004 /* FFGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2004 /* FFGame.swift */; };
+		1005 /* FFLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2005 /* FFLanguage.swift */; };
+		1006 /* Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2006 /* Catalog.swift */; };
+		1007 /* GameConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007 /* GameConfiguration.swift */; };
+		1008 /* InjectState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2008 /* InjectState.swift */; };
+		1009 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2009 /* Session.swift */; };
+		1010 /* LanguageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2010 /* LanguageStore.swift */; };
+		1011 /* MenuStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2011 /* MenuStore.swift */; };
+		1012 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2012 /* SessionManager.swift */; };
+		1013 /* ContainerBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2013 /* ContainerBridge.swift */; };
+		1014 /* InjectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014 /* InjectionManager.swift */; };
+		1015 /* FFXCBackdrop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2015 /* FFXCBackdrop.swift */; };
+		1016 /* FFXCBrandMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2016 /* FFXCBrandMark.swift */; };
+		1017 /* GlassStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2017 /* GlassStyles.swift */; };
+		1018 /* MonochromeToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2018 /* MonochromeToggleStyle.swift */; };
+		1019 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2019 /* LoginView.swift */; };
+		1020 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2020 /* MainMenuView.swift */; };
+		1021 /* LanguagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2021 /* LanguagePickerView.swift */; };
+		1022 /* GameSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2022 /* GameSelector.swift */; };
+		1023 /* FeatureSectionCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2023 /* FeatureSectionCard.swift */; };
+		1024 /* FeatureRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2024 /* FeatureRow.swift */; };
+		1025 /* FOVRadiusRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2025 /* FOVRadiusRow.swift */; };
+		1026 /* HeadshotRateRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2026 /* HeadshotRateRow.swift */; };
+		1027 /* AimTargetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2027 /* AimTargetRow.swift */; };
+		1028 /* BottomInjectBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2028 /* BottomInjectBar.swift */; };
+		1029 /* Assembly-CSharp-patch.bytes in Resources */ = {isa = PBXBuildFile; fileRef = 2029 /* Assembly-CSharp-patch.bytes */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0001 /* YABAOCHEAT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YABAOCHEAT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2001 /* FFXCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFXCApp.swift; sourceTree = "<group>"; };
+		2002 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		2003 /* AppLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLog.swift; sourceTree = "<group>"; };
+		2004 /* FFGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFGame.swift; sourceTree = "<group>"; };
+		2005 /* FFLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLanguage.swift; sourceTree = "<group>"; };
+		2006 /* Catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalog.swift; sourceTree = "<group>"; };
+		2007 /* GameConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConfiguration.swift; sourceTree = "<group>"; };
+		2008 /* InjectState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectState.swift; sourceTree = "<group>"; };
+		2009 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		2010 /* LanguageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageStore.swift; sourceTree = "<group>"; };
+		2011 /* MenuStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuStore.swift; sourceTree = "<group>"; };
+		2012 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		2013 /* ContainerBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerBridge.swift; sourceTree = "<group>"; };
+		2014 /* InjectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionManager.swift; sourceTree = "<group>"; };
+		2015 /* FFXCBackdrop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFXCBackdrop.swift; sourceTree = "<group>"; };
+		2016 /* FFXCBrandMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFXCBrandMark.swift; sourceTree = "<group>"; };
+		2017 /* GlassStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassStyles.swift; sourceTree = "<group>"; };
+		2018 /* MonochromeToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonochromeToggleStyle.swift; sourceTree = "<group>"; };
+		2019 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2020 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		2021 /* LanguagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguagePickerView.swift; sourceTree = "<group>"; };
+		2022 /* GameSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSelector.swift; sourceTree = "<group>"; };
+		2023 /* FeatureSectionCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureSectionCard.swift; sourceTree = "<group>"; };
+		2024 /* FeatureRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureRow.swift; sourceTree = "<group>"; };
+		2025 /* FOVRadiusRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FOVRadiusRow.swift; sourceTree = "<group>"; };
+		2026 /* HeadshotRateRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadshotRateRow.swift; sourceTree = "<group>"; };
+		2027 /* AimTargetRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AimTargetRow.swift; sourceTree = "<group>"; };
+		2028 /* BottomInjectBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomInjectBar.swift; sourceTree = "<group>"; };
+		2029 /* Assembly-CSharp-patch.bytes */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Assembly-CSharp-patch.bytes"; sourceTree = "<group>"; };
+		2030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2031 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4001 = {
+			isa = PBXGroup;
+			children = (
+				4002 /* Sources */,
+				4003 /* Resources */,
+				0001 /* YABAOCHEAT.app */,
+			);
+			sourceTree = "<group>";
+		};
+		4002 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4004 /* App */,
+				4005 /* Models */,
+				4006 /* Services */,
+				4007 /* UI */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4003 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2029 /* Assembly-CSharp-patch.bytes */,
+				2030 /* Info.plist */,
+				2031 /* Entitlements.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4004 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2001 /* FFXCApp.swift */,
+				2002 /* RootView.swift */,
+				2003 /* AppLog.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2004 /* FFGame.swift */,
+				2005 /* FFLanguage.swift */,
+				2006 /* Catalog.swift */,
+				2007 /* GameConfiguration.swift */,
+				2008 /* InjectState.swift */,
+				2009 /* Session.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4006 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2010 /* LanguageStore.swift */,
+				2011 /* MenuStore.swift */,
+				2012 /* SessionManager.swift */,
+				2013 /* ContainerBridge.swift */,
+				2014 /* InjectionManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4007 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4008 /* Styles */,
+				4009 /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4008 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				2015 /* FFXCBackdrop.swift */,
+				2016 /* FFXCBrandMark.swift */,
+				2017 /* GlassStyles.swift */,
+				2018 /* MonochromeToggleStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		4009 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2019 /* LoginView.swift */,
+				2020 /* MainMenuView.swift */,
+				2021 /* LanguagePickerView.swift */,
+				2022 /* GameSelector.swift */,
+				2023 /* FeatureSectionCard.swift */,
+				2024 /* FeatureRow.swift */,
+				2025 /* FOVRadiusRow.swift */,
+				2026 /* HeadshotRateRow.swift */,
+				2027 /* AimTargetRow.swift */,
+				2028 /* BottomInjectBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5001 /* YABAOCHEAT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6001 /* Build configuration list for PBXNativeTarget "YABAOCHEAT" */;
+			buildPhases = (
+				7001 /* Sources */,
+				3001 /* Frameworks */,
+				8001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YABAOCHEAT;
+			productName = YABAOCHEAT;
+			productReference = 0001 /* YABAOCHEAT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 6002 /* Build configuration list for PBXProject "YABAOCHEAT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4001;
+			productRefGroup = 4001;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5001 /* YABAOCHEAT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1029 /* Assembly-CSharp-patch.bytes in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1001 /* FFXCApp.swift in Sources */,
+				1002 /* RootView.swift in Sources */,
+				1003 /* AppLog.swift in Sources */,
+				1004 /* FFGame.swift in Sources */,
+				1005 /* FFLanguage.swift in Sources */,
+				1006 /* Catalog.swift in Sources */,
+				1007 /* GameConfiguration.swift in Sources */,
+				1008 /* InjectState.swift in Sources */,
+				1009 /* Session.swift in Sources */,
+				1010 /* LanguageStore.swift in Sources */,
+				1011 /* MenuStore.swift in Sources */,
+				1012 /* SessionManager.swift in Sources */,
+				1013 /* ContainerBridge.swift in Sources */,
+				1014 /* InjectionManager.swift in Sources */,
+				1015 /* FFXCBackdrop.swift in Sources */,
+				1016 /* FFXCBrandMark.swift in Sources */,
+				1017 /* GlassStyles.swift in Sources */,
+				1018 /* MonochromeToggleStyle.swift in Sources */,
+				1019 /* LoginView.swift in Sources */,
+				1020 /* MainMenuView.swift in Sources */,
+				1021 /* LanguagePickerView.swift in Sources */,
+				1022 /* GameSelector.swift in Sources */,
+				1023 /* FeatureSectionCard.swift in Sources */,
+				1024 /* FeatureRow.swift in Sources */,
+				1025 /* FOVRadiusRow.swift in Sources */,
+				1026 /* HeadshotRateRow.swift in Sources */,
+				1027 /* AimTargetRow.swift in Sources */,
+				1028 /* BottomInjectBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 33;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 3.6.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.mobile.MobileHouseArrest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 33;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 3.6.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.mobile.MobileHouseArrest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6001 /* Build configuration list for PBXNativeTarget "YABAOCHEAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003 /* Debug */,
+				6004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6002 /* Build configuration list for PBXProject "YABAOCHEAT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6005 /* Debug */,
+				6006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 9001 /* Project object */;
+}
