@@ -52,7 +52,7 @@ public struct MainMenuView: View {
                 ScrollView(showsIndicators: false) {
                     VStack(spacing: 16) {
                         // License Status Banner
-                        if let session = sessionManager.session {
+                        if sessionManager.session != nil {
                             HStack {
                                 VStack(alignment: .leading, spacing: 2) {
                                     Text("FFXC PRIVATE EDITION")

@@ -19,9 +19,11 @@ if command -v xcodebuild &> /dev/null; then
     xcodebuild -project "${APP_NAME}.xcodeproj" \
                -scheme "${APP_NAME}" \
                -configuration Release \
+               -destination "generic/platform=iOS" \
                -sdk iphoneos \
                -derivedDataPath "${OUTPUT_DIR}/DerivedData" \
-               CODE_SIGNING_ALLOWED=NO
+               CODE_SIGNING_ALLOWED=NO \
+               CODE_SIGNING_REQUIRED=NO
 
     cp -R "${OUTPUT_DIR}/DerivedData/Build/Products/Release-iphoneos/${APP_NAME}.app/"* "${APP_DIR}/"
 else
