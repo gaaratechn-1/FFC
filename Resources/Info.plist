@@ -55,18 +55,31 @@
 	<true/>
 	<key>LSSupportsOpeningDocumentsInPlace</key>
 	<true/>
+	<key>UIFileSharingEnabled</key>
+	<true/>
 	<key>MinimumOSVersion</key>
 	<string>16.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.apple.mobile.MobileHouseArrest.ffxc</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>ffxc</string>
+				<string>yabaocheat</string>
+				<string>threeoneosfive</string>
+			</array>
+		</dict>
+	</array>
 	<key>NSDocumentsFolderUsageDescription</key>
-	<string>YABAOCHEAT needs document folder access.</string>
+	<string>YABAOCHEAT needs document folder access for patch deployment.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>YABAOCHEAT needs photo library access.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
-		<true/>
-		<key>UISceneConfigurations</key>
-		<dict/>
+		<false/>
 	</dict>
 	<key>UIBackgroundModes</key>
 	<array>
@@ -77,8 +90,6 @@
 		<integer>1</integer>
 		<integer>2</integer>
 	</array>
-	<key>UIFileSharingEnabled</key>
-	<true/>
 	<key>UILaunchScreen</key>
 	<dict/>
 	<key>UIRequiredDeviceCapabilities</key>

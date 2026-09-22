@@ -59,7 +59,7 @@ The key verification system and remote license check have been **completely bypa
 YABAOCHEAT/
 ├── Sources/
 │   ├── App/
-│   │   ├── FFXCApp.swift             # App entry point (@main)
+│   │   ├── FFXCApp.swift             # App entry point (@main) + 3105 exploit initialization
 │   │   ├── RootView.swift            # View switcher (Login vs Menu)
 │   │   └── AppLog.swift              # In-app diagnostics logger
 │   ├── Models/
@@ -73,19 +73,32 @@ YABAOCHEAT/
 │   │   ├── LanguageStore.swift       # Full translation tables
 │   │   ├── MenuStore.swift           # UI state & persistence
 │   │   ├── SessionManager.swift      # API validation + Offline bypass
-│   │   ├── ContainerBridge.swift     # Private container discovery
+│   │   ├── ContainerBridge.swift     # 3105 MHA-C2 + MCM Class-2 App Discovery & Lease Activation
 │   │   └── InjectionManager.swift    # IFix patch & localConfig deployment
-│   └── UI/
-│       ├── Styles/                   # Backdrop, BrandMark, Glass & Toggle styles
-│       └── Views/                    # LoginView, MainMenuView, Sliders, Bar
+│   ├── Exploit/                      # 3105 MHA-C2 & BadQuery Exploit Engine
+│   │   ├── mcm_bridge.h / .m         # MobileContainerManager sandbox lease activation
+│   │   └── bad_query.h / .c          # iOS 26+ sandbox escape
+│   ├── KExploit/                     # 3105 Kernel Exploit Engine
+│   │   ├── kexploit_opa334.h / .m    # iOS 17.0–18.7.1 kernel R/W exploit
+│   │   ├── sandbox_escape.h / .m     # Full sandbox escape
+│   │   └── offsets.h / .m            # SoC kernel offsets
+│   ├── Helpers/                      # 3105 System Helpers
+│   │   ├── AntiDetection.m           # Prevents jailbreak checks via fork() override
+│   │   ├── KernelExploit.swift       # Swift exploit runner & verification
+│   │   ├── SupportPolicy.swift       # iOS version support matrix
+│   │   └── SystemBridge.swift        # AppInfo & stdout/stderr pipe redirection
+│   ├── UI/
+│   │   ├── Styles/                   # Backdrop, BrandMark, Glass & Toggle styles
+│   │   └── Views/                    # LoginView, MainMenuView, Sliders, Bar
+│   └── YABAOCHEAT-Bridging-Header.h  # Exposes 3105 C/ObjC native engines to Swift
 ├── Resources/
 │   ├── Assembly-CSharp-patch.bytes   # Dumped 322-byte IFix hotfix payload
-│   ├── Info.plist                    # App permissions & manifest
-│   ├── Entitlements.plist            # TrollStore & MobileContainerManager entitlements
+│   ├── Info.plist                    # Bundle ID com.apple.mobile.MobileHouseArrest & MHA-C2 schemes
+│   ├── Entitlements.plist            # Enterprise, TrollStore & MCM private entitlements
 │   └── AppIcons/                     # Extracted retina app icons
 ├── build_ipa.sh                      # Automated build & packaging script
 ├── build_ipa.bat                     # Windows packaging script
-└── YABAOCHEAT.xcodeproj              # Xcode project
+└── YABAOCHEAT.xcodeproj              # Xcode project with bridging header & all 3105 modules
 ```
 
 ---

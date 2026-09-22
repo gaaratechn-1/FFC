@@ -36,6 +36,23 @@
 		1027 /* AimTargetRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2027 /* AimTargetRow.swift */; };
 		1028 /* BottomInjectBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2028 /* BottomInjectBar.swift */; };
 		1029 /* Assembly-CSharp-patch.bytes in Resources */ = {isa = PBXBuildFile; fileRef = 2029 /* Assembly-CSharp-patch.bytes */; };
+		1101 /* bad_query.c in Sources */ = {isa = PBXBuildFile; fileRef = 2101 /* bad_query.c */; };
+		1103 /* mcm_bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2103 /* mcm_bridge.m */; };
+		1105 /* wallpaper_zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 2105 /* wallpaper_zip.c */; };
+		1111 /* kexploit_opa334.m in Sources */ = {isa = PBXBuildFile; fileRef = 2111 /* kexploit_opa334.m */; };
+		1113 /* krw.m in Sources */ = {isa = PBXBuildFile; fileRef = 2113 /* krw.m */; };
+		1115 /* kutils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2115 /* kutils.m */; };
+		1118 /* offsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 2118 /* offsets.m */; };
+		1120 /* sandbox_escape.m in Sources */ = {isa = PBXBuildFile; fileRef = 2120 /* sandbox_escape.m */; };
+		1122 /* vnode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2122 /* vnode.m */; };
+		1131 /* AntiDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2131 /* AntiDetection.m */; };
+		1132 /* AppIconHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2132 /* AppIconHelper.m */; };
+		1134 /* DisplayIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = 2134 /* DisplayIdentity.m */; };
+		1136 /* ContainerIdentityResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2136 /* ContainerIdentityResolver.swift */; };
+		1137 /* FileReplacementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2137 /* FileReplacementService.swift */; };
+		1138 /* KernelExploit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2138 /* KernelExploit.swift */; };
+		1139 /* SupportPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2139 /* SupportPolicy.swift */; };
+		1140 /* SystemBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2140 /* SystemBridge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +88,37 @@
 		2029 /* Assembly-CSharp-patch.bytes */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Assembly-CSharp-patch.bytes"; sourceTree = "<group>"; };
 		2030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2031 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		2101 /* bad_query.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = bad_query.c; sourceTree = "<group>"; };
+		2102 /* bad_query.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bad_query.h; sourceTree = "<group>"; };
+		2103 /* mcm_bridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mcm_bridge.m; sourceTree = "<group>"; };
+		2104 /* mcm_bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mcm_bridge.h; sourceTree = "<group>"; };
+		2105 /* wallpaper_zip.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = wallpaper_zip.c; sourceTree = "<group>"; };
+		2106 /* wallpaper_zip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wallpaper_zip.h; sourceTree = "<group>"; };
+		2111 /* kexploit_opa334.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kexploit_opa334.m; sourceTree = "<group>"; };
+		2112 /* kexploit_opa334.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kexploit_opa334.h; sourceTree = "<group>"; };
+		2113 /* krw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = krw.m; sourceTree = "<group>"; };
+		2114 /* krw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = krw.h; sourceTree = "<group>"; };
+		2115 /* kutils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kutils.m; sourceTree = "<group>"; };
+		2116 /* kutils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kutils.h; sourceTree = "<group>"; };
+		2117 /* machine_info.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = machine_info.h; sourceTree = "<group>"; };
+		2118 /* offsets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = offsets.m; sourceTree = "<group>"; };
+		2119 /* offsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = offsets.h; sourceTree = "<group>"; };
+		2120 /* sandbox_escape.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sandbox_escape.m; sourceTree = "<group>"; };
+		2121 /* sandbox_escape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sandbox_escape.h; sourceTree = "<group>"; };
+		2122 /* vnode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vnode.m; sourceTree = "<group>"; };
+		2123 /* vnode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vnode.h; sourceTree = "<group>"; };
+		2124 /* xpaci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xpaci.h; sourceTree = "<group>"; };
+		2131 /* AntiDetection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AntiDetection.m; sourceTree = "<group>"; };
+		2132 /* AppIconHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppIconHelper.m; sourceTree = "<group>"; };
+		2133 /* AppIconHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppIconHelper.h; sourceTree = "<group>"; };
+		2134 /* DisplayIdentity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DisplayIdentity.m; sourceTree = "<group>"; };
+		2135 /* DisplayIdentity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DisplayIdentity.h; sourceTree = "<group>"; };
+		2136 /* ContainerIdentityResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerIdentityResolver.swift; sourceTree = "<group>"; };
+		2137 /* FileReplacementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReplacementService.swift; sourceTree = "<group>"; };
+		2138 /* KernelExploit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KernelExploit.swift; sourceTree = "<group>"; };
+		2139 /* SupportPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportPolicy.swift; sourceTree = "<group>"; };
+		2140 /* SystemBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemBridge.swift; sourceTree = "<group>"; };
+		2150 /* YABAOCHEAT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YABAOCHEAT-Bridging-Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +148,10 @@
 				4005 /* Models */,
 				4006 /* Services */,
 				4007 /* UI */,
+				4010 /* Exploit */,
+				4011 /* KExploit */,
+				4012 /* Helpers */,
+				2150 /* YABAOCHEAT-Bridging-Header.h */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -184,6 +236,57 @@
 				2028 /* BottomInjectBar.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		4010 /* Exploit */ = {
+			isa = PBXGroup;
+			children = (
+				2101 /* bad_query.c */,
+				2102 /* bad_query.h */,
+				2103 /* mcm_bridge.m */,
+				2104 /* mcm_bridge.h */,
+				2105 /* wallpaper_zip.c */,
+				2106 /* wallpaper_zip.h */,
+			);
+			path = Exploit;
+			sourceTree = "<group>";
+		};
+		4011 /* KExploit */ = {
+			isa = PBXGroup;
+			children = (
+				2111 /* kexploit_opa334.m */,
+				2112 /* kexploit_opa334.h */,
+				2113 /* krw.m */,
+				2114 /* krw.h */,
+				2115 /* kutils.m */,
+				2116 /* kutils.h */,
+				2117 /* machine_info.h */,
+				2118 /* offsets.m */,
+				2119 /* offsets.h */,
+				2120 /* sandbox_escape.m */,
+				2121 /* sandbox_escape.h */,
+				2122 /* vnode.m */,
+				2123 /* vnode.h */,
+				2124 /* xpaci.h */,
+			);
+			path = KExploit;
+			sourceTree = "<group>";
+		};
+		4012 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2131 /* AntiDetection.m */,
+				2132 /* AppIconHelper.m */,
+				2133 /* AppIconHelper.h */,
+				2134 /* DisplayIdentity.m */,
+				2135 /* DisplayIdentity.h */,
+				2136 /* ContainerIdentityResolver.swift */,
+				2137 /* FileReplacementService.swift */,
+				2138 /* KernelExploit.swift */,
+				2139 /* SupportPolicy.swift */,
+				2140 /* SystemBridge.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +381,23 @@
 				1026 /* HeadshotRateRow.swift in Sources */,
 				1027 /* AimTargetRow.swift in Sources */,
 				1028 /* BottomInjectBar.swift in Sources */,
+				1101 /* bad_query.c in Sources */,
+				1103 /* mcm_bridge.m in Sources */,
+				1105 /* wallpaper_zip.c in Sources */,
+				1111 /* kexploit_opa334.m in Sources */,
+				1113 /* krw.m in Sources */,
+				1115 /* kutils.m in Sources */,
+				1118 /* offsets.m in Sources */,
+				1120 /* sandbox_escape.m in Sources */,
+				1122 /* vnode.m in Sources */,
+				1131 /* AntiDetection.m in Sources */,
+				1132 /* AppIconHelper.m in Sources */,
+				1134 /* DisplayIdentity.m in Sources */,
+				1136 /* ContainerIdentityResolver.swift in Sources */,
+				1137 /* FileReplacementService.swift in Sources */,
+				1138 /* KernelExploit.swift in Sources */,
+				1139 /* SupportPolicy.swift in Sources */,
+				1140 /* SystemBridge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +407,9 @@
 		6003 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Resources/Entitlements.plist";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/YABAOCHEAT-Bridging-Header.h";
+
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -305,6 +428,9 @@
 		6004 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Resources/Entitlements.plist";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sources/YABAOCHEAT-Bridging-Header.h";
+
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

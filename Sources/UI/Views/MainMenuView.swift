@@ -14,6 +14,7 @@ public struct MainMenuView: View {
     
     @State private var showLogoutAlert: Bool = false
     @State private var showLanguagePicker: Bool = false
+    @State private var showLogs: Bool = false
     
     public init() {}
     
@@ -27,6 +28,14 @@ public struct MainMenuView: View {
                     FFXCBrandMark(compact: true)
                     
                     Spacer()
+                    
+                    // Diagnostic log button
+                    Button(action: { showLogs = true }) {
+                        Image(systemName: "terminal.fill")
+                            .font(.system(size: 13))
+                            .foregroundColor(Color.white.opacity(0.8))
+                    }
+                    .buttonStyle(GlassButtonStyle())
                     
                     // Language button
                     Button(action: { showLanguagePicker = true }) {
@@ -91,6 +100,30 @@ public struct MainMenuView: View {
         }
         .sheet(isPresented: $showLanguagePicker) {
             LanguagePickerView()
+        }
+        .sheet(isPresented: $showLogs) {
+            NavigationView {
+                ZStack {
+                    FFXCBackdrop()
+                    ScrollView {
+                        VStack(alignment: .leading, spacing: 8) {
+                            ForEach(AppLog.shared.entries) { entry in
+                                HStack(alignment: .top, spacing: 6) {
+                                    Text("[\(entry.level.rawValue)]")
+                                        .font(.system(size: 10, weight: .bold, design: .monospaced))
+                                        .foregroundColor(entry.level == .error ? .red : (entry.level == .success ? .green : .yellow))
+                                    Text(entry.message)
+                                        .font(.system(size: 11, design: .monospaced))
+                                        .foregroundColor(.white.opacity(0.9))
+                                }
+                            }
+                        }
+                        .padding()
+                    }
+                }
+                .navigationTitle("Diagnostics & Logs")
+                .navigationBarTitleDisplayMode(.inline)
+            }
         }
         .alert(isPresented: $showLogoutAlert) {
             Alert(
